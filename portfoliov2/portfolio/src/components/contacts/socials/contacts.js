@@ -12,12 +12,13 @@ function Contacts() {
 
   return (
     <div className="container">
+      <div id="contactslink"></div>
       <div className="title">Contacts/Socials</div>
       <div className="contact-item">
         Phone Number: {contactInfo.phoneNumber}
       </div>
       <div className="contact-item">Email: {contactInfo.email}</div>
-      <div className="contact-item">Venmo: {contactInfo.venmo}</div>
+
       <div className="contact-item">
         LinkedIn:{" "}
         <a
@@ -34,6 +35,7 @@ function Contacts() {
           {contactInfo.github}
         </a>
       </div>
+      <div className="contact-item">Venmo: {contactInfo.venmo}</div>
     </div>
   );
 }

@@ -8,15 +8,49 @@ const NavigationBar = () => {
     <nav className="navbar">
       <img src={logo} className="logo" alt="logo" />
       <div className="desktopMenu">
-        <Link className="desktopMenuListItem">Home</Link>
-        <Link className="desktopMenuListItem">About</Link>
-        <Link className="desktopMenuListItem">Skills</Link>
-        <Link className="desktopMenuListItem">Experience</Link>
+        <Link
+          className="desktopMenuListItem"
+          activeClass="active"
+          to="intro"
+          spy={true}
+          smooth={true}
+        >
+          Home
+        </Link>
+        <Link
+          className="desktopMenuListItem"
+          activeClass="active"
+          to="aboutmelink"
+          spy={true}
+          smooth={true}
+        >
+          About
+        </Link>
+        <Link
+          className="desktopMenuListItem"
+          activeClass="active"
+          to="skillslink"
+          spy={true}
+          smooth={true}
+        >
+          Skills
+        </Link>
+        <Link
+          className="desktopMenuListItem"
+          activeClass="active"
+          to="experiencelink"
+          spy={true}
+          smooth={true}
+        >
+          Experience
+        </Link>
       </div>
-      <button className="desktopMenuBtn">
-        <img src={contactImg} alt="" className="desktopMenuImg" />
-        Contact Me
-      </button>
+      <Link to="contactslink" spy={true} smooth={true}>
+        <button className="desktopMenuBtn">
+          <img src={contactImg} alt="" className="desktopMenuImg" />
+          Contact Me
+        </button>
+      </Link>
     </nav>
   );
 };
