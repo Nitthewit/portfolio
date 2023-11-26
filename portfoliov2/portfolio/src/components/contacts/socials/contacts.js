@@ -11,32 +11,37 @@ function Contacts() {
   };
 
   return (
-    <div className="container">
-      <div id="contactslink"></div>
-      <div className="title">Contacts</div>
-      <div className="contact-item">
-        Phone Number: {contactInfo.phoneNumber}
-      </div>
-      <div className="contact-item">Email: {contactInfo.email}</div>
+    <section id="Contactslink">
+      <div className="container">
+        <div className="title">Contacts</div>
+        <div className="contact-item">
+          Phone Number: {contactInfo.phoneNumber}
+        </div>
+        <div className="contact-item">Email: {contactInfo.email}</div>
 
-      <div className="contact-item">
-        LinkedIn:{" "}
-        <a
-          href={contactInfo.linkedIn}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {contactInfo.linkedIn}
-        </a>
+        <div className="contact-item">
+          LinkedIn:{" "}
+          <a
+            href={contactInfo.linkedIn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {contactInfo.linkedIn}
+          </a>
+        </div>
+        <div className="contact-item">
+          GitHub:{" "}
+          <a
+            href={contactInfo.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {contactInfo.github}
+          </a>
+        </div>
+        <div className="contact-item">Venmo: {contactInfo.venmo}</div>
       </div>
-      <div className="contact-item">
-        GitHub:{" "}
-        <a href={contactInfo.github} target="_blank" rel="noopener noreferrer">
-          {contactInfo.github}
-        </a>
-      </div>
-      <div className="contact-item">Venmo: {contactInfo.venmo}</div>
-    </div>
+    </section>
   );
 }
 

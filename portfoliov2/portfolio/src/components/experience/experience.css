@@ -28,15 +28,11 @@
 
 /* Style the experience boxes */
 .experience-box {
-  transition: transform 0.3s ease;
   background: rgb(50, 50, 50);
   border-radius: 10px;
   margin: 2rem;
   padding: 2rem;
   width: 70vw; /* Adjust the width as needed */
-}
-.experience-box:hover {
-  transform: scale(1.1);
 }
 
 #description-title {

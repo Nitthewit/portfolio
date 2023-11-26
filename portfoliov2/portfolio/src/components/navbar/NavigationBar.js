@@ -13,7 +13,7 @@ const NavigationBar = () => {
           activeClass="active"
           to="intro"
           spy={true}
-          offset={-50}
+          offset={-100}
           smooth={true}
           duration={500}
         >
@@ -54,9 +54,7 @@ const NavigationBar = () => {
         </Link>
       </div>
       <Link
-        activeClass="active"
         to="Contactslink"
-        spy={true}
         offset={-50}
         smooth={true}
         duration={500}
