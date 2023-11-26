@@ -13,7 +13,7 @@ const NavigationBar = () => {
           activeClass="active"
           to="intro"
           spy={true}
-          offset={-100}
+          offset={-50}
           smooth={true}
           duration={500}
         >
@@ -24,7 +24,7 @@ const NavigationBar = () => {
           activeClass="active"
           to="aboutme"
           spy={true}
-          offset={-100}
+          offset={-50}
           smooth={true}
           duration={500}
         >
@@ -35,7 +35,7 @@ const NavigationBar = () => {
           activeClass="active"
           to="skills"
           spy={true}
-          offset={-100}
+          offset={-50}
           smooth={true}
           duration={500}
         >
@@ -46,7 +46,7 @@ const NavigationBar = () => {
           activeClass="active"
           to="Experience"
           spy={true}
-          offset={-100}
+          offset={-50}
           smooth={true}
           duration={500}
         >
@@ -57,7 +57,7 @@ const NavigationBar = () => {
         activeClass="active"
         to="Contactslink"
         spy={true}
-        offset={-100}
+        offset={-50}
         smooth={true}
         duration={500}
       >
