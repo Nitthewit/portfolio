@@ -18,7 +18,7 @@ const Intro = () => {
           continuously expanding my skills and embracing new<br></br>{" "}
           technologies. Eager to collaborate on new innovative projects.
         </p>
-        <Link to="contactslink" spy={true} smooth={true}>
+        <Link to="Contactslink" offset={-50} smooth={true} duration={500}>
           <button className="btn">
             <img src={btnImg} className="btnImg" alt="Hire" />
             Hire
