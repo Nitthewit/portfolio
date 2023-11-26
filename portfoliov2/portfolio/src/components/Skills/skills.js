@@ -21,8 +21,7 @@ import IC12 from "../../assets/icons/icon12.png";
 const Skillss = () => {
   return (
     <div>
-      <section id="skills">
-      <div id = "aboutmelink"></div>
+      <section id="aboutme">
         <span className="about">About Me</span>
         <span className="skillDesc">
           I am a dedicated IT and Software Engineering enthusiast with a
@@ -35,7 +34,9 @@ const Skillss = () => {
           underscore my expertise and fuel my zeal for innovation in the realms
           of IT and AI.
         </span>
-        <div id = "skillslink"></div>
+      </section>
+      <section id="skills">
+        <div id="skillslink"></div>
         <span className="skillTitle">Skills</span>
         <div className="skillBars">
           <div className="skillBar">

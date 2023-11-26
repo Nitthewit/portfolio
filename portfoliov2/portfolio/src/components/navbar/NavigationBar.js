@@ -13,39 +13,54 @@ const NavigationBar = () => {
           activeClass="active"
           to="intro"
           spy={true}
+          offset={-100}
           smooth={true}
+          duration={500}
         >
           Home
         </Link>
         <Link
           className="desktopMenuListItem"
           activeClass="active"
-          to="aboutmelink"
+          to="aboutme"
           spy={true}
+          offset={-100}
           smooth={true}
+          duration={500}
         >
           About
         </Link>
         <Link
           className="desktopMenuListItem"
           activeClass="active"
-          to="skillslink"
+          to="skills"
           spy={true}
+          offset={-100}
           smooth={true}
+          duration={500}
         >
           Skills
         </Link>
         <Link
           className="desktopMenuListItem"
           activeClass="active"
-          to="experiencelink"
+          to="Experience"
           spy={true}
+          offset={-100}
           smooth={true}
+          duration={500}
         >
           Experience
         </Link>
       </div>
-      <Link to="contactslink" spy={true} smooth={true}>
+      <Link
+        activeClass="active"
+        to="Contactslink"
+        spy={true}
+        offset={-100}
+        smooth={true}
+        duration={500}
+      >
         <button className="desktopMenuBtn">
           <img src={contactImg} alt="" className="desktopMenuImg" />
           Contact Me

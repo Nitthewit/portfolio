@@ -1,5 +1,5 @@
 /* Center the entire content */
-.container {
+.Experience {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,8 +18,8 @@
 }
 
 /* Style the title */
-#title {
-    margin-top: 8rem;
+#Experiencetitle {
+  margin-top: 8rem;
   color: rgb(255, 255, 255);
   font-size: 3rem;
   font-weight: bold;

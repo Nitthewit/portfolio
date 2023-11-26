@@ -13,7 +13,7 @@ function Contacts() {
   return (
     <div className="container">
       <div id="contactslink"></div>
-      <div className="title">Contacts/Socials</div>
+      <div className="title">Contacts</div>
       <div className="contact-item">
         Phone Number: {contactInfo.phoneNumber}
       </div>
